@@ -14,6 +14,15 @@ header {
     align-items: center;
 }
 
+.active {
+    color: rgb(191, 12, 240);
+}
+
+header a:hover {
+    color: rgb(191, 12, 240);
+    font-weight: bold;
+}
+
 .logo img {
     max-width: 100%;
     padding-left: 30px;
@@ -446,7 +455,7 @@ button[type="submit"] {
 .peu_foto {
     font-size: 0.7rem;
     color: rgb(158, 157, 171);
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
